@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+body{
+    font-family: 'Belanosima', sans-serif;
+    font-size: large;
+}
+
+.contain{
+    background-color: #5AC3B0;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 35vw;
+    top: 4vh;
+}
+
+.calc
+{
+    position: relative;
+    left: 4vw;
+}
+
+.title h2
+{
+    position: relative;
+    left: 85px;
+}
+
+#bmi
+{
+    position: relative;
+    left: 5vw;
+    width: 10vw;
+    height: 40px;
+}
+
+#clear
+{
+    position: relative;
+    left: 5vw;
+    width: 10vw;
+    height: 40px;
+}
+
+.display
+{
+    background-color: #5AC3B0 ;
+    height: 200px;
+    width: 400px;
+    color: black;
+    position: relative;
+    left: 35vw;
+    top: 6vh;
+    display: none;
+}
+
+.display h2
+{
+    position: relative;
+    left: 156px;
+}
+
+#dis
+{
+    position: relative;
+    left: 140px;
+}
+
+#stat
+{
+    position: relative;
+    left: 140px;
+}
+
+.display.active
+{
+    display: block;
+}

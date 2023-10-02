@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contain">
+        <div class="title">
+            <h2>BMI CALCULATOR</h2>
+        </div><br>
+
+        <div class="gender">
+            <label for="F" class="calc">Female </label><input type="radio" name="gen" id="F" class="calc">
+            <label for="M" class="calc">Male </label> <input type="radio" name="gen" id="M" class="calc">
+        </div><br>
+
+        <div class="details">
+            <label for="height" class="calc">Height (cm): </label><input type="text" id="height" class="calc"><br><br>
+            <label for="weight" class="calc">Weight (kg): </label><input type="text" id="weight" class="calc"><br><br>
+            <button id="bmi">Calculate</button> 
+            <button id="clear">Clear</button> 
+        </div>
+    </div>
+    <div class="display">
+        <h2>Result</h2>
+        <p id="dis"></p>
+        <p id="stat"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
